@@ -1,0 +1,310 @@
+*{
+    padding: 0;
+    border: 0;
+}
+.logo {
+    width: 200px;
+    height: 60px;
+}
+
+.container-fluid {
+    background-color: rgb(249, 213, 148);
+    padding: 10px;
+}
+
+.nav-p1 {
+    padding: 0;
+}
+.overlayText {
+    position: absolute;
+     top:50%;
+     left:20%;
+     z-index:1;
+     
+   }
+ #topText {
+    color: #fcb000;
+     font-size: 70px;
+     align-self: center;
+   }
+.dropdown-item {
+    color: #fcb000;
+}
+.btn-search {
+    border: 1px solid blue;
+    color: blue;
+}
+.container {
+    margin: 0;
+    padding: 0;
+}
+.text-in-img {
+    width: 574px;
+    height: 402px;
+}
+.long-text {
+    color: rgb(255,255,255);
+}
+.btn-dog {
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: #fcb000;
+    color: white;
+    cursor: pointer;
+}
+.btn-cat {
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    margin-top: 1opx;
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+}
+.btn-dog:hover {
+    opacity: 0.8;
+    background-color: blue;
+}
+.btn-cat:hover {
+    opacity: 0.8;
+    background-color: blue;
+}
+
+.dv-main {
+    width: 100%;
+    height: 120px;
+    color: #fcb000;
+    text-align: center;
+    font-size: 30px;
+   
+}
+.text-dv {
+    align-items: center;
+    width: 500px;
+    height: 120px;
+    margin-left: 35%;
+}
+.sort-text-dv {
+    margin-bottom: 0;
+ 
+}
+.long-text-dv {
+    color: black;
+    font-size: 20px;
+    
+}
+.kham, .kham-2 {
+    width: 450px;
+    height: 201px;
+    background-color: #fcb000;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.xet-nghiem {
+    width: 450px;
+    height: 201px;
+    background-color: #db9a04;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.dieu-tri {
+    display: flex;
+    justify-content: center;
+}
+.tt-dvk {
+    width: 380px;
+    height: 710px;
+    margin-left: 10px;
+}
+.tt-dvk-2 {
+    width: 380px;
+    height: 710px;
+    margin-right: 10px;
+}
+.img-dvk {
+    width: 590px;
+    height: 700px;
+    text-align: center;
+    color: #fcb000;
+}
+.dv-khac {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.bs {
+    margin-top: 50px;
+}
+.luu-chuong {
+    width: 330px;
+    height: 150px;
+    margin-top: 38px;
+}
+.luu-chuong > h4 {
+    color: #fcb000;
+}
+.cc {
+    margin-top: 38px;
+}
+.cc > h4 {
+    color: #fcb000;
+}
+.san-pham {
+    width: 100%;
+    height: 100px;
+    background-color:  rgb(249, 213, 148);
+    margin-top: 5%;
+    text-align: center;
+    padding: 20px;
+}
+.san-pham > h4 {
+    color: #c88c00;
+}
+.san-pham > p {
+    color: white;
+}
+
+.full-sp {
+    width: 100%;
+    height: 1100px;
+}
+.card {
+    height: 480px;
+    border: 1px solid #c88c00;
+}
+.do-an {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.do-dung {
+    margin-top: 60px;
+    display: flex;
+     justify-content: space-around;
+}
+.btn-all-sp-1 {
+    background-color: #db9a04;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 45%;
+}
+.btn-all-sp-1:hover {
+    opacity: 0.8;
+    background-color: blue;
+}
+.card-title {
+    color: red;
+    font-weight: bolder;
+}
+.card-text {
+    font-weight: bolder;
+}
+.btn-mua {
+    background-color: #db9a04;
+    border: 0;
+}
+
+.tin-tuc {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.card-link  {
+    color: #c88c00;
+    text-decoration: none;
+}
+.card-2 {
+    color: black;
+    margin-top: 20px;
+}
+.text-muted {
+    margin-top:20px ;
+}
+.main-footer {
+    width: 100%;
+    height: 700px;
+    background-color: whitesmoke;
+}
+.footer {
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-gt {
+    display: flex;
+    margin-left: 20px;
+    width: 396px;
+    height: 183px;
+}
+.logo-footer {
+    width: 128px;
+    height: 194px;
+}
+.text-logo {
+    width: 259px;
+    height: 194px;
+    color: blue;
+}
+.text-tru-so {
+    width: 500px;
+    height: 150px;
+    margin-right: 50px;
+}
+.footer-mua-hang {
+    width: 300px;
+    height: 194px;
+    margin-right: 17%;
+}
+.chinh-sach {
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+.link-cs {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.link-cs:hover {
+    opacity: 0.8;
+    color: #c88c00;
+}
+.icon-mxh {
+    color: black;
+    font-size: 20px;
+    margin-right: 70px;
+}
+.icon-mxh:hover {
+    opacity: 0.8;
+    color: rgb(189, 189, 189);
+}
+.thanh-toan {
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 100px;
+}
+.payment-logo {
+    color: black;
+    cursor: pointer;
+}
+.payment-logo:hover {
+    opacity: 0.8;
+    color: rgb(189, 189, 189);
+}
+.chung-nhan {
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+.mxh {
+    margin-left: 5.5%;
+}

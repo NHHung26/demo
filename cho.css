@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    border: 0;
+}
+.logo {
+    width: 200px;
+    height: 60px;
+}
+
+.container-fluid {
+    background-color: rgb(249, 213, 148);
+    padding: 10px;
+}
+.container {
+    width: 100%;
+    height: 1200px;
+}
+.mainn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.dropdown-item {
+    color: #fcb000;
+}
+.btn-search {
+    border: 1px solid blue;
+    color: blue;
+}
+.container {
+    margin: 0;
+    padding: 0;
+}
+.nav-p1 {
+    padding: 0;
+}
+.dong-one {
+    width: 100%;
+    height: 256px;
+    display: flex;
+    justify-content: space-around;
+}
+.tag-1 {
+    width: 20%;
+    height: 300px;
+    text-align: center;
+}
+.img-tag1 {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+.link-tag-1 {
+    text-decoration: none;
+    color: black;
+    font-size: bold;
+    cursor: pointer;
+}
+.link-tag-1:hover {
+    opacity: 0.8;
+    color: #fcb000;
+}
+    .dong-two {
+        width: 100%;
+        height: 256px;
+        display: flex;
+        justify-content: space-around;
+        
+        
+    }
+    .tag-2 {
+        width: 20%;
+        height: 300px;
+        text-align: center;
+    }
+    .img-tag2 {
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+    }
+    .link-tag-2 {
+        text-decoration: none;
+        color: black;
+        font-size: bold;
+        cursor: pointer;
+    }
+    .link-tag-2:hover {
+        opacity: 0.8;
+        color: #fcb000;
+    }
+    .dong-22 {
+        margin-top: 40px;
+    }
+    .video-gt {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .table {
+        width: 544px;
+        color: blue;
+        text-align: center;
+    }
+    .don-vi {
+        color: black;
+        text-align: end;
+    }
+    .table >li {
+        list-style: none;
+        height: 28px;
+        width: 25px;
+    
+    }
+    li > a{
+        text-decoration: none;
+    }
+    .cot {
+        display: flex;
+        justify-content: space-around;
+    }
+    li.bang-gia-1 {
+        background-color: greenyellow;
+        margin-left: 10px;
+        text-align: start;
+        align-items: center;
+        border-radius: 20px;
+        list-style: none;
+    }
+    li.bang-gia {
+        background-color: aliceblue;
+        margin-left: 10px;
+        text-align: start;
+        margin-left: 10px;
+        align-items: center;
+        border-radius: 20px;
+        list-style: none;
+    }
+    .link-table:hover {
+        color: blue;
+        opacity: 0.8;
+
+    }
+    .video-ytb {
+        margin-top: 50px;
+    }
+    .zalo {
+        width: 277px;
+        height: 90px;
+        background-color: #fcb000;
+        border-radius: 10px ;
+        border: 1px solid #c88c00;
+    }
+    .zalo:hover {
+        opacity: 0.8;
+        background-color: white;
+    }
+    .phone {
+        width: 277px;
+        height: 90px;
+        background-color: blue;
+        border-radius: 10px;
+        border: 1px solid blue;
+    }
+    .phone:hover {
+        opacity: 0.8;
+        background-color: white;
+    }
+    .btn-lien-he-mh {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .main-footer {
+        width: 100%;
+        height: 700px;
+        background-color: whitesmoke;
+    }
+    .footer {
+        width: 100%;
+        height: 150px;
+        margin-top: 10px;
+        padding-top: 70px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-gt {
+        display: flex;
+        margin-left: 20px;
+        width: 396px;
+        height: 183px;
+    }
+    .logo-footer {
+        width: 128px;
+        height: 194px;
+    }
+    .text-logo {
+        width: 259px;
+        height: 194px;
+        color: blue;
+    }
+    .text-tru-so {
+        width: 500px;
+        height: 150px;
+        margin-right: 50px;
+    }
+    .footer-mua-hang {
+        width: 300px;
+        height: 194px;
+        margin-right: 17%;
+    }
+    .chinh-sach {
+        margin-top: 15%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .link-cs {
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+    .link-cs:hover {
+        opacity: 0.8;
+        color: #c88c00;
+    }
+    .icon-mxh {
+        color: black;
+        font-size: 20px;
+        margin-right: 70px;
+    }
+    .icon-mxh:hover {
+        opacity: 0.8;
+        color: rgb(189, 189, 189);
+    }
+    .thanh-toan {
+        margin-top: 10px;
+        font-size: 30px;
+        margin-left: 100px;
+    }
+    .payment-logo {
+        color: black;
+        cursor: pointer;
+    }
+    .payment-logo:hover {
+        opacity: 0.8;
+        color: rgb(189, 189, 189);
+    }
+    .chung-nhan {
+        margin-left: 45px;
+        margin-top: 10px;
+    }
+    
+    .mxh {
+        margin-left: 5.5%;
+    }
+    .recommend {
+        list-style: none;
+        
+    }
+    li >a {
+        color: #c88c00;
+    }
+    
+    
